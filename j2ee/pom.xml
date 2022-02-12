@@ -9,19 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>boot</artifactId>
+    <artifactId>j2ee</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>fun.xiaohuo.frame</groupId>
-            <artifactId>constants</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>fun.xiaohuo.frame</groupId>
-            <artifactId>file</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
         </dependency>
     </dependencies>
 

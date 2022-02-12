@@ -9,21 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>boot</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>fun.xiaohuo.frame</groupId>
-            <artifactId>constants</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>fun.xiaohuo.frame</groupId>
-            <artifactId>file</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <artifactId>constants</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

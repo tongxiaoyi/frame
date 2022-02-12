@@ -4,12 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fun.xiaohuo</groupId>
+    <groupId>fun.xiaohuo.frame</groupId>
     <artifactId>frame</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>boot</module>
+        <module>ioc</module>
+        <module>j2ee</module>
+        <module>boot-starter-web</module>
+        <module>TestDemo</module>
+        <module>constants</module>
+        <module>file</module>
     </modules>
 
     <properties>
